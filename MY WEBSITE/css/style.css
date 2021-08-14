@@ -1,0 +1,83 @@
+body{
+    height: 100vh;
+}
+.navbar{
+    background: #3d122f;
+  /*  height: 15vh;*/
+}
+/* #hero{
+   height: 85vh;
+}*/
+.nav-link{
+    color: rgb(175, 147, 75) !important;
+}
+.btn{
+    background: hsl(320, 54%, 15%) !important;
+    animation-duration: 0.5s;
+    border:none !important;
+    
+}
+.btn a{
+    text-decoration: none;
+    color: white !important;
+}
+.btn a:hover{
+    color:  rgb(179, 150, 76) !important;
+}
+.btn:hover{
+    border: rgb(238, 201, 109) solid 3px !important;
+    
+    background: transparent !important;
+    
+}
+.name h1{
+    font-size: 20px;
+    color: rgb(175, 147, 75);
+}
+.name h2{
+    font-size: 10px;
+    color: rgb(175, 147, 75);
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 1rem;
+   
+}
+#features{
+    margin-top: 5rem;
+}
+#features h1{
+    text-align: center;
+    background:#3d122f ;
+    color: rgb(235, 193, 88);
+}
+.my-col{
+    box-shadow: 0px 3px 24px -3px rgba(110,15,82,0.76);
+-webkit-box-shadow: 0px 3px 24px -3px rgba(110,15,82,0.76);
+-moz-box-shadow: 0px 3px 24px -3px rgba(110,15,82,0.76);
+}
+@media screen and (max-width: 480px) {
+    .dadSon-img{
+        width: 200px !important;
+    }
+    .my-logo{
+        width: 16px !important;
+    }
+    .name h1{
+        font-size: 12px;
+    }
+    .name h2{
+        font-size: 8;
+    }
+    
+  }
+h5{
+    color: #3d122f;
+    display: inline;
+    border: #3d122f solid 1px;
+    border-radius: 6%;
+    background: rgb(235, 210, 148);
+}
